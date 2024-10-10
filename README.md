@@ -105,7 +105,7 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 Please refer to the examples in [video_predictor_example.ipynb](./notebooks/video_predictor_example.ipynb) (also in Colab [here](https://colab.research.google.com/github/facebookresearch/segment-anything-2/blob/main/notebooks/video_predictor_example.ipynb)) for details on how to add click or box prompts, make refinements, and track multiple objects in videos.
 
 ### BOX2MASK
-![SAM 2 box2mask](assets/img.png?raw=true)
+![SAM 2 box2mask](img.png?raw=true)
 ```
 python image_prediction_multi.py
 ```
